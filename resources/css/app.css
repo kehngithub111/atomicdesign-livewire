@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .main-container {
+        @apply min-h-[100dvh] bg-slate-200 relative;
+    }
+}
